@@ -1,2 +1,10 @@
 components/opslife/
 *.zip
+
+# Generated files
+.next/
+node_modules/
+.vercel/
+out/
+build/
+.DS_Store
