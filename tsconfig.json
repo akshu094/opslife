@@ -1,10 +1,11 @@
-cd /Users/akshaysk/Downloads/opslife
-
-cat > tsconfig.json <<'EOF'
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -23,7 +24,9 @@ cat > tsconfig.json <<'EOF'
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -37,4 +40,3 @@ cat > tsconfig.json <<'EOF'
     "components/opslife"
   ]
 }
-EOF
